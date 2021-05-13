@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="row">
+      <img src="./assets/logo.png" class="logo" />
+    </div>
+    <div class="tab">
+      <button class="tablinks">Twitch</button>
+      <button class="tablinks">Instagram (Coming Soon!)</button>
+    </div>
+    <div id="Twitch" class="tab-content">
+      <div class="row">
+        <div class="col-25">
+          <label for="twitch-video-url">Twitch Video URL</label>
+        </div>
+        <div class="col-75">
+          <input
+            type="url"
+            id="twitch-video-url"
+            name="twitch-video-url"
+            placeholder="Videos, Clips, Coll or chat"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="twitch-site-urls">Site URL(s)</label>
+        </div>
+        <div class="col-75">
+          <input
+            type="text"
+            id="twitch-site-urls"
+            name="twitch-site-urls"
+            placeholder="CSV for URL(s)"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="twitch-output">Embed Code</label>
+        </div>
+      </div>
+      <div class="row">
+        <textarea
+          id="twitch-output"
+          name="twitch-output"
+          rows="4"
+          cols="50"
+        ></textarea>
+      </div>
+      <div class="row">
+        <button type="button" id="twitch-preview-button">Preview Embed</button>
+      </div>
+    </div>
+    <script src="./src/embed.js"></script>
+  </body>
+</html>

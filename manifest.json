@@ -1,0 +1,19 @@
+{
+  "name": "Embedu",
+  "description": "Generate embed codes at your will",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "index.js"
+  },
+  "permissions": ["tabs", "webRequest"],
+  "icons": {
+    "16": "/assets/coding16.png",
+    "32": "/assets/coding32.png",
+    "48": "/assets/coding48.png",
+    "128": "/assets/coding128.png"
+  },
+  "action": {
+    "default_popup": "index.html"
+  }
+}
