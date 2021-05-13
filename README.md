@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="500" src="https://github.com/sharangj/embedu/blob/master/assets/logo.png" style="background-color:white;"/>
+    <img width="500" src="https://github.com/sharangj/embedu/blob/master/assets/logo.svg"/>
 </p>
 
 ---
