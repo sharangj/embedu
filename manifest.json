@@ -6,7 +6,6 @@
   "background": {
     "service_worker": "index.js"
   },
-  "permissions": ["tabs", "webRequest"],
   "icons": {
     "16": "/assets/coding16.png",
     "32": "/assets/coding32.png",
